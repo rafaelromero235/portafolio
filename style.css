@@ -32,6 +32,7 @@ position: sticky;
 top: 0;
 width: 100%;
 background-color: #242635;
+
 }
 .navbar__container{
     display: flex;
@@ -41,10 +42,11 @@ background-color: #242635;
     gap: 1rem;
     position: relative;
     background-color: #242635;
+    
 }
 .navbar__menu{
 
-border: 1px solid #242635;
+
 width: 100%;
 background-color: #242635;
 }
@@ -58,23 +60,11 @@ background-color: #242635;
 align-items: center;
 justify-content: flex-end;
 
+
 }
 .navbar__list > a{
 text-decoration: none;
 color:#ffffff;
-}
-
-
-.navbar__button{
-    display: flex;
-    align-items: center;
-    padding-right: 1rem;
-    background-color: #242635;
-   
-}
-.navbar__button > i {
-color: white;
-
 }
 
 
@@ -110,20 +100,29 @@ h2{
     }
     #btnClose{
         color: white;
+        font-size: large;
     }
- 
-}
+    .navbar__button > i {
+         color: white ;
+        }
+    
+    }
 
 
 
 @media (min-width : 500px){
 
-    #btnClose{
+   #btnClose{
     display: none;
-}
-
-
-
+            }
+            
+ .navbar__button > i {
+    display: none;
+    align-items: center;
+    padding-right: 1rem;
+    background-color: #242635;
+               
+            }   
 
 
 }
