@@ -4,6 +4,7 @@ html{
     line-height: 1.5;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *,
@@ -13,7 +14,8 @@ html{
 }
 
 body{
-    margin: 0rem top 2rem;
+    margin: 0;
+    
     
 }
 
@@ -25,10 +27,11 @@ section {
     height: 100vh;
 }
 .navbar{
-border: 1px solid red;
+    height: 60px;
 position: sticky;
 top: 0;
 width: 100%;
+background-color: #242635;
 }
 .navbar__container{
     display: flex;
@@ -37,26 +40,28 @@ width: 100%;
     justify-content:flex-end;
     gap: 1rem;
     position: relative;
+    background-color: #242635;
 }
 .navbar__menu{
 
 border: 1px solid #242635;
 width: 100%;
-background-color: #ffffff;
+background-color: #242635;
 }
 .navbar__list{
-
+height: 100%;
     display: flex;
 
     gap: 1rem;
     width: 100%;
-background-color: #ffffff;
-align-items: flex-end;
+background-color: #242635;
+align-items: center;
 justify-content: flex-end;
+
 }
-.navbar__list > li{
-    text-decoration: none;
-    color: red;
+.navbar__list > a{
+text-decoration: none;
+color:#ffffff;
 }
 
 
@@ -64,28 +69,61 @@ justify-content: flex-end;
     display: flex;
     align-items: center;
     padding-right: 1rem;
+    background-color: #242635;
    
 }
+.navbar__button > i {
+color: white;
+
+}
+
+
+.wrapper{
+   /* margin-top: 40px;*/
+   border: 1px solid #34b0be;
+    background-color: #242635;
+}
+h2{
+    color: white;
+}
+
+.service__container{
+    display: flex;
+   justify-content: center;
+}
+
+
 
 @media (max-width : 500px){
     .navbar__menu{
         position: absolute;
         border: 1px solid #312222;
         width: 100%;
-        background-color: #ffffff;
+        background-color:#242635;
         }
     
     .navbar__list{
         gap: 1rem;
         flex-direction: column;
         align-items: center;
+       
     }
+    #btnClose{
+        color: white;
+    }
+ 
 }
+
 
 
 @media (min-width : 500px){
-#btnClose{
+
+    #btnClose{
     display: none;
 }
+
+
+
+
 
 }
