@@ -157,7 +157,7 @@ a:hover {
 
     .header__container {
         width: 400px;
-        height: 400px;
+        height: 320px;
         margin-left: auto;
         margin-right: auto;
         background-color: #242635;
@@ -226,7 +226,7 @@ a:hover {
         margin: 0;
         background-color: #242635;
         color: #34b0be;
-        font-size: 30px;
+        font-size: 50px;
     }
 
 
