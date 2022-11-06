@@ -169,6 +169,8 @@ a:hover {
     }
 
     .header__perfil {
+        width: 100%;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -317,12 +319,28 @@ a:hover {
 
     }
 
-    .twittter__logo {
+    .link__behance{
+        text-decoration: none;
+        color: white;
+      
+    }
+    .behance__logo{
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
         width: 100%;
         height: 100%;
+        color: white;
+        background-color: white;
+    }
+
+    .twittter__logo {
+        padding: 5px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 50%;
+        height: 50%;
         color: white;
         background-color: white;
     }
@@ -585,6 +603,15 @@ a:hover {
 
     }
 
+    .contacto__link-tlfn{
+        text-decoration: none;
+
+    }
+
+    .contacto__link-mail{
+        text-decoration: none;
+
+    }
     .contacto__elemento1,
     .contacto__elemento2{
 
@@ -607,18 +634,32 @@ a:hover {
     .contacto__subtitulo2{
 
         font-weight: 800;
+        text-decoration: none;
+        color: #34b0be;
     
     }
     .contacto__subtitulo{
 
         margin-left: 25px;
+        text-decoration: none;
 
     }
+
 
     .contacto__subtitulo2{
         margin-left: 70px;
     }
-
+    .contacto__parrafo{
+        
+        color: black;
+     
+       text-align: center;
+        text-decoration: none;
+    }
+.contacto__parrafo2{
+    text-align: center;
+    font-size: 12px;
+}
     .contacto__contenedor{
 
         display: flex;
@@ -754,6 +795,8 @@ a:hover {
 
     .header__perfil {
         display: none;
+        width: 300px;
+        height: 300px;
 
     }
 
@@ -761,6 +804,7 @@ a:hover {
 
         max-width: 100%;
         height: 100%;
+
         margin-left: auto;
         margin-right: auto;
     }
@@ -912,6 +956,10 @@ a:hover {
         font-size: 50px;
         color: #34b0be;
 
+    }
+    .imagen__tarjeta2{
+        color: #34b0be;
+       
     }
 
     .acercDeMi__title {
@@ -1106,6 +1154,7 @@ a:hover {
 
         font-size: 50px;
         color: #34b0be;
+        text-decoration: none;
 
     }
 
@@ -1127,22 +1176,45 @@ a:hover {
         height: 100px;
 
     }
+
+    .contacto__link-tlfn{
+        text-decoration: none;
+
+    }
+    .contacto__link-mail{
+        text-decoration: none;
+
+    }
     .contacto__subtitulo,
     .contacto__subtitulo2{
 
         font-weight: 800;
-    
+
+        text-decoration: none;
     }
     .contacto__subtitulo{
 
         margin-left: 25px;
+        text-decoration: none;
+        color: #34b0be;
 
     }
 
     .contacto__subtitulo2{
         margin-left: 70px;
+        color: #34b0be;
     }
 
+    .contacto__parrafo{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+    .contacto__parrafo2{
+        font-size: 12px;
+        text-align: center;
+        color: black;
+    }
     .contacto__contenedor{
 
         display: flex;
