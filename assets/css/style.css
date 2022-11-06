@@ -478,17 +478,20 @@ a:hover {
         height: 300px;
     }
     .imagen__tarjeta1{
+        margin-top: 10px;
         margin-left: 50px;
         margin-right: auto;
         width: 100px;
         height: 100px;
     }
     .imagen__tarjeta2{
+        margin-top: 10px;
         margin-left: 50px;
         width: 100px;
         height: 100px;
     }
     .imagen__tarjeta3{
+        margin-top: 10px;
         margin-left: 50px;
         width: 100px;
         height: 100px;
@@ -496,9 +499,11 @@ a:hover {
     .titulo__tarjeta1,
     .titulo__tarjeta2,
     .titulo__tarjeta3{
+        
+        
         font-weight: 800;
-        width: auto;
-        margin-left:50px ;
+       
+        text-align: center;
     }
     .texto__tarjeta1,
     .texto__tarjeta2,
