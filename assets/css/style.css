@@ -1060,7 +1060,10 @@ a:hover {
     .titulo__tarjeta3{
         font-weight: 800;
         width: auto;
+
         text-align: center;
+
+
     }
 
     .texto__tarjeta1,
